@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>EjercicioPixelArt</title>
+    <style>
+      article {
+        position:absolute;
+        left: 0px;
+        right: 0px;
+        background-color: black;
+        width: 640px;
+        height: 640px;
+      }
+      div {
+        width: 80px;
+        height: 80px;
+      }
+      #t1 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background-color: lightgreen;
+      }
+      #t2 {
+        background-color: forestgreen;
+        width: 8px;
+      }
+      #t3 {
+        background-color: lime;
+        width: 8px;
+      }
+      #t4 {
+        background-color: lime;
+        width: 8px;
+      }
+      #t5 {
+        background-color: mediumseagreen;
+        width: 8px;
+      }
+      #t6 {
+        background-color: silver;
+        width: 8px;
+      }
+      #t7 {
+        background-color: lightgray;
+        width: 8px;
+      }
+      #t8 {
+        background-color: green;
+        width: 8px;
+      }
+      #t9 {
+        background-color: forestgreen;
+        width: 8px;
+        
+      }
+      #t10 {
+        background-color: lime;
+        width: 8px;
+      }
+      #t11 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t12 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t13 {
+        background-color: lime;
+        width: 8px;
+      }
+      #t14 {
+        background-color: rgb(15, 59, 19);
+        width: 8px;
+      }
+      #t15 {
+        background-color: darkseagreen;
+        width: 8px;
+      }
+      #t16 {
+        background-color: palegreen;
+        width: 8px;
+      }
+      #t17 {
+        background-color: forestgreen;
+        width: 8px;
+      }
+      #t18 {
+        background-color: forestgreen;
+        width: 8px;
+      }
+      #t19 {
+        background-color: olivedrab;
+        width: 8px;
+      }
+      #t20 {
+        background-color: black;
+        width: 8px;
+      }
+      #t21 {
+        background-color: palegreen;
+        width: 8px;
+      }
+      #t22 {
+        background-color: darkolivegreen;
+        width: 8px;
+      }
+      #t23 {
+        background-color: black;
+        width: 8px;
+      }
+      #t24 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t25 {
+        background-color: lightgreen;
+        width: 8px;
+      }
+      #t26 {
+        background-color: lime;
+        width: 8px;
+      }
+      #t27 {
+        background-color: lightgreen;
+        width: 8px;
+      }
+      #t28 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t29 {
+        background-color: black;
+        width: 8px;
+      }
+      #t30 {
+        background-color: black;
+        width: 8px;
+      }
+      #t31 {
+        background-color: lightgreen;
+        width: 8px;
+      }
+      #t32 {
+        background-color: lightgray;
+        width: 8px;
+      }
+      #t33 {
+        background-color:  rgb(15, 59, 19);
+        width: 8px;
+      }
+      #t34 {
+        background-color: rgb(38, 88, 38);
+        width: 8px;
+      }
+      #t35 {
+        background-color: seagreen;
+        width: 8px;
+      }
+      #t36 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t37 {
+        background-color: black;
+        width: 8px;
+      }
+      #t38 {
+        background-color: black;
+        width: 8px;
+      }
+      #t39 {
+        background-color: silver;
+        width: 8px;
+      }
+      #t40 {
+        background-color: lime;
+        width: 8px;
+      }
+      #t41 {
+        background-color: lime;
+        width: 8px;
+      }
+      #t42 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t42 {
+        background-color: black;
+        width: 8px;
+      }
+      #t43 {
+        background-color: lightgray;
+        width: 8px;
+      }
+      #t44 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t45 {
+        background-color: black;
+        width: 8px;
+      }
+      #t46 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t47 {
+        background-color: lime;
+        width: 8px;
+      }
+      #t48 {
+        background-color: rgb(38, 88, 38);
+        width: 8px;
+      }
+      #t49 {
+        background-color: olivedrab;
+        width: 8px;
+      }
+      #t50 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t51 {
+        background-color: forestgreen;
+        width: 8px;
+      }
+      #t52 {
+        background-color: lime;
+        width: 8px;
+      }
+      #t53 {
+        background-color: seagreen;
+        width: 8px;
+      }
+      #t54 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t55 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t56 {
+        background-color: lightgray;
+        width: 8px;
+      }
+      #t57 {
+        background-color: lightgray;
+        width: 8px;
+      }
+      #t58 {
+        background-color: forestgreen;
+        width: 8px;
+      }
+      #t59 {
+        background-color: forestgreen;
+        width: 8px;
+      }
+      #t60 {
+        background-color: lightgreen;
+        width: 8px;
+      }
+      #t61 {
+        background-color: lightgreen;
+        width: 8px;
+      }
+      #t62 {
+        background-color: lightgray;
+        width: 8px;
+      }
+      #t63 {
+        background-color: darkgreen;
+        width: 8px;
+      }
+      #t64 {
+        background-color: seagreen;
+        width: 8px;
+        
+      }
+      .segunda { 
+          left: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <article>
+        <ul>
+        <div id="t1"></div>
+        <div id="t2"></div>
+        <div id="t3"></div>
+        <div id="t4"></div>
+        <div id="t5"></div>
+        <div id="t6"></div>
+        <div id="t7"></div>
+        <div id="t8"></div>
+        </ul>
+        <ul id="segunda">
+        <div id="t9"></div>
+        <div id="t10"></div>
+        <div id="t11"></div>
+        <div id="t12"></div>
+        <div id="t13"></div>
+        <div id="t14"></div>
+        <div id="t15"></div>
+        <div id="t16"></div>
+      </ul>
+      <ul>
+        <div id="t17"></div>
+        <div id="t18"></div>
+        <div id="t19"></div>
+        <div id="t20"></div>
+        <div id="t21"></div>
+        <div id="t22"></div>
+        <div id="t23"></div>
+        <div id="t24"></div>
+      </ul>
+      <ul>
+        <div id="t25"></div>
+        <div id="t26"></div>
+        <div id="t27"></div>
+        <div id="t28"></div>
+        <div id="t29"></div>
+        <div id="t30"></div>
+        <div id="t31"></div>
+        <div id="t32"></div>
+      </ul>
+      <ul>
+        <div id="t33"></div>
+        <div id="t34"></div>
+        <div id="t35"></div>
+        <div id="t36"></div>
+        <div id="t37"></div>
+        <div id="t38"></div>
+        <div id="t39"></div>
+        <div id="t40"></div>
+      </ul>
+      <ul>
+        <div id="t41"></div>
+        <div id="t42"></div>
+        <div id="t43"></div>
+        <div id="t44"></div>
+        <div id="t45"></div>
+        <div id="t46"></div>
+        <div id="t47"></div>
+        <div id="t48"></div>
+      </ul>
+      <ul>
+        <div id="t49"></div>
+        <div id="t50"></div>
+        <div id="t51"></div>
+        <div id="t52"></div>
+        <div id="t53"></div>
+        <div id="t54"></div>
+        <div id="t55"></div>
+        <div id="t56"></div>
+      </ul>
+      <ul>
+        <div id="t57"></div>
+        <div id="t58"></div>
+        <div id="t59"></div>
+        <div id="t60"></div>
+        <div id="t61"></div>
+        <div id="t62"></div>
+        <div id="t63"></div>
+        <div id="t64"></div>
+      </ul>
+        
+        
+
+      </article>
+    </main>
+    <footer></footer>
+  </body>
+</html>
